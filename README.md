@@ -19,7 +19,7 @@
 ## Screenshots
 
 ### Homepage
-![alt homepage](https://raw.github.com/eluckette/google-places-exercise/screenshots/home.png)
+<img src="screenshots/home.png">
 
 ### Search Results
 ![alt results](https://raw.github.com/eluckette/google-places-exercise/screenshots/results.png)
