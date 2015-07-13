@@ -22,7 +22,7 @@
 <img src="screenshots/home.png">
 
 ### Search Results
-![alt results](https://raw.github.com/eluckette/google-places-exercise/screenshots/results.png)
+<img src="screenshots/results.png"
 
 ### Selecting a Marker
-![alt marker](https://raw.github.com/eluckette/google-places-exercise/screenshots/marker.png)
+<img src="screenshots/marker.png">
