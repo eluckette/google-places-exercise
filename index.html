@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Place searches</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Handlee|Patua+One|Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<h1>Search San Francisco</h1>
+
+		<div class="row">
+			<div class="col-md-3">
+		  		<form action="/do-not-go-here" id="search-box">
+					<input type="text" id="search-input" placeholder="search">
+			</div>
+			
+			<div class="col-md-3">
+				<div class="dropdown">
+					<select id="neighborhood">
+						<option value="bernal-heights"> Bernal Heights </option>
+						<option value="the-castro"> The Castro </option>
+						<option value="chinatown"> Chinatown </option>
+						<option value="cole-valley"> Cole Valley </option>
+						<option value="fishermans-wharf"> Fisherman's Wharf </option>
+						<option value="the-haight"> The Haight </option>
+						<option value="hayes-valley"> Hayes Valley </option>
+						<option value="inner-richmond"> Inner Richmond </option>
+						<option value="inner-sunset"> Inner Sunset </option>
+						<option value="the-marina"> The Marina </option>
+						<option value="the-mission"> The Mission </option>
+						<option value="nob-hill"> Nob Hill </option>
+						<option value="north-beach"> North Beach </option>
+						<option value="outer-richmond"> Outer Richmond </option>
+						<option value="outer-sunset"> Outer Sunset </option>
+						<option value="pacific-heights"> Pacific Heights </option>
+						<option value="potrero-hill"> Potrero Hill </option>
+						<option value="russian-hill"> Russian Hill </option>
+						<option value="soma"> SoMa </option>
+						<option value="tenderloin"> Tenderloin </option>
+						<option value="western-addition"> Western Addition </option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="col-md-1">
+				<button type="submit" id="submit-search" class="btn btn-default" aria-label="Left Align">
+		  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="map-canvas"></div>
+		</div>
+
+	</body>
+</html>
