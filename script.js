@@ -47,7 +47,7 @@ function makeRequest(evt) {
 
   var request = {
     location: latlong[userNeighborhood],
-    radius: '500',
+    radius: '100',
     query: userSearch
   };
 
