@@ -22,7 +22,7 @@
 <img src="screenshots/home.png">
 
 ### Search Results
-<img src="screenshots/results.png"
+<img src="screenshots/results.png">
 
 ### Selecting a Marker
 <img src="screenshots/marker.png">
